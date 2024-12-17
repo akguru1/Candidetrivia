@@ -90,7 +90,7 @@ function checkAnswer(selectedOption) {
         correctAnswerElement.classList.add('correct');
         
         // Success sound effect
-        const successSound = new Audio('success-1-6297.mp3');
+        const successSound = new Audio('success_bell-6776.mp3');
         successSound.play();
         
         // Confetti effect
