@@ -12,12 +12,12 @@ const questions = [
     { question: "What is the ultimate conclusion Candide reaches at the end of the novel?", options: ["To keep traveling", "To return to Eldorado", "To cultivate his garden", "To seek revenge"], answer: "To cultivate his garden", prize: "$1", hint: "He decides to focus on practical work" },
     { question: "Which event first leads Candide to question Pangloss's philosophy?", options: ["The earthquake in Lisbon", "The war with the Bulgarians", "The execution in Lisbon", "Cunegonde's betrayal"], answer: "The earthquake in Lisbon", prize: "$1", hint: "A devastating event that happens in Portugal" },
     { question: "Who is the Anabaptist that aids Candide and Pangloss?", options: ["Martin", "Jacques", "Vanderdendur", "Cacambo"], answer: "Jacques", prize: "$1", hint: "He is kind and selfless" },
-    { question: "What happens to Pangloss at the auto-da-fé in Lisbon?", options: ["He is executed", "He escapes", "He converts", "He is imprisoned"], answer: "He is executed", prize: "$1", hint: "A form of public punishment" },
+    { question: "What happens to Pangloss at the auto-da-fé in Lisbon?", options: ["He is executed", "He escapes", "He converts", "He is imprisoned"], answer: "He is said to be executed", prize: "$1", hint: "A form of public punishment" },
     { question: "Which role does Cunegonde's brother, the Baron, play in Candide's life?", options: ["Mentor", "Villain", "Comrade", "Adviser"], answer: "Villain", prize: "$1", hint: "He opposes Candide's relationship with his sister" },
     { question: "Which character believes that humanity is inherently evil and corrupt?", options: ["Pangloss", "Martin", "Cacambo", "Jacques"], answer: "Martin", prize: "$1", hint: "He is a pessimistic scholar" },
     { question: "What is the primary theme explored in Candide?", options: ["Wealth", "Religion", "Philosophy of optimism", "Political power"], answer: "Philosophy of optimism", prize: "$1", hint: "It's about believing this is the best of all possible worlds" },
     { question: "What literary device is predominantly used by Voltaire in Candide?", options: ["Metaphor", "Simile", "Satire", "Irony"], answer: "Satire", prize: "$1", hint: "A humorous way to criticize society" },
-    { question: "Who ultimately helps Candide find a simple, content life?", options: ["Pangloss", "Cacambo", "The Old Woman", "The Farmer"], answer: "The Farmer", prize: "$1", hint: "He teaches Candide the importance of hard work" }
+    { question: "Why is Candide expelled from the Baron's castle?", options: ["For stealing", "For being a commoner", "For kissing Cunegonde", "For questioning Pangloss"], answer: "For kissing Cunegonde", prize: "$1", hint: "He shows affection towards the Baron's daughter" }
 ];
 
 let currentQuestionIndex = 0;
