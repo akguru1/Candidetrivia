@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "JetBrains Mono",monospace;
     text-align: center;
     background-color: #b4bbc1;
     margin: 0;
@@ -27,6 +27,7 @@ h1 {
 #question-text {
     font-size: 24px;
     font-weight: bold;
+    font-family: "JetBrains Mono",monospace;
     color: #eaf1ed;
     margin-bottom: 20px;
 }
