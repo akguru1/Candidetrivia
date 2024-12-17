@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>     
+        <meta charset="UTF-8">     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>Candide Trivia Game</title>     <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body>     
+        <div class="game-container">         
+            <h1>Who wants to be a millionare? Candide edition!</h1>         
+            <div class="question-container">             
+                <p id="question-text">Question will appear here</p>             
+                <div id="options-container"></div>             
+                    <p id="prize-display">Current Prize: $0</p>             
+                    <button id="hint-button">Hint</button>             
+                    <button id="skip-button">Skip</button>         
+                </div>         
+            <div class="progress-bar">             
+                <div id="progress-bar"></div>         
+            </div>         
+            <button id="restart-button" style="display: none;">Restart</button>     
+        </div>          <!-- Candide and Plane Animation -->     
+        <script src="game.js"></script> 
+    </body> 
+</html> 
+
